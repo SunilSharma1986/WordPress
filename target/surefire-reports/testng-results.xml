@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="108590" started-at="2018-03-07T04:46:11Z" finished-at="2018-03-07T04:48:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="108590" started-at="2018-03-07T04:46:11Z" finished-at="2018-03-07T04:48:00Z">
+      <class name="com.wordpress.testcases.PostsPageTest">
+        <test-method status="PASS" signature="addnewPostsTest(java.lang.String, java.lang.String)[pri:2, instance:com.wordpress.testcases.PostsPageTest@6f1fba17]" name="addnewPostsTest" duration-ms="27969" started-at="2018-03-07T10:16:34Z" data-provider="getDemoSiteTestData" finished-at="2018-03-07T10:17:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yahoo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is about publishing Yahoo site]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewPostsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.testcases.PostsPageTest@6f1fba17]" name="tearDown" is-config="true" duration-ms="737" started-at="2018-03-07T10:17:02Z" finished-at="2018-03-07T10:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addnewPostsTest(java.lang.String, java.lang.String)[pri:2, instance:com.wordpress.testcases.PostsPageTest@6f1fba17]" name="addnewPostsTest" duration-ms="28790" started-at="2018-03-07T10:17:03Z" data-provider="getDemoSiteTestData" finished-at="2018-03-07T10:17:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rediff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is about publishing Rediff site]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewPostsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.testcases.PostsPageTest@6f1fba17]" name="tearDown" is-config="true" duration-ms="663" started-at="2018-03-07T10:17:31Z" finished-at="2018-03-07T10:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addnewPostsTest(java.lang.String, java.lang.String)[pri:2, instance:com.wordpress.testcases.PostsPageTest@6f1fba17]" name="addnewPostsTest" duration-ms="27265" started-at="2018-03-07T10:17:32Z" data-provider="getDemoSiteTestData" finished-at="2018-03-07T10:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GoogleNews]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is about publishing GoogleNews site]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewPostsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.testcases.PostsPageTest@6f1fba17]" name="tearDown" is-config="true" duration-ms="692" started-at="2018-03-07T10:17:59Z" finished-at="2018-03-07T10:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.testcases.PostsPageTest -->
+      <class name="com.wordpress.testcases.HomePageTest">
+        <test-method status="PASS" signature="homeTest()[pri:0, instance:com.wordpress.testcases.HomePageTest@6c3708b3]" name="homeTest" duration-ms="21063" started-at="2018-03-07T10:16:11Z" finished-at="2018-03-07T10:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.testcases.HomePageTest@6c3708b3]" name="tearDown" is-config="true" duration-ms="883" started-at="2018-03-07T10:16:33Z" finished-at="2018-03-07T10:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.testcases.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

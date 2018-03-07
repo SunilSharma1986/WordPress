@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22091" started-at="2018-03-07T04:12:01Z" finished-at="2018-03-07T04:12:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22091" started-at="2018-03-07T04:12:01Z" finished-at="2018-03-07T04:12:23Z">
+      <class name="com.wordpress.testcases.HomePageTest">
+        <test-method status="PASS" signature="homeTest()[pri:0, instance:com.wordpress.testcases.HomePageTest@1a8a8f7c]" name="homeTest" duration-ms="21180" started-at="2018-03-07T09:42:01Z" finished-at="2018-03-07T09:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.testcases.HomePageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="891" started-at="2018-03-07T09:42:23Z" finished-at="2018-03-07T09:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

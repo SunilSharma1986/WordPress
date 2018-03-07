@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [DS Test Automation Suite]" parallel="tests">
+  <test name="Home Page Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.wordpress.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="homeTest"/>
+        </methods>
+      </class> <!-- com.wordpress.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+  <test name="Posts Page Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.wordpress.testcases.PostsPageTest">
+        <methods>
+          <include name="addnewPostsTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.wordpress.testcases.PostsPageTest -->
+    </classes>
+  </test> <!-- Posts Page Test(failed) -->
+</suite> <!-- Failed suite [DS Test Automation Suite] -->
